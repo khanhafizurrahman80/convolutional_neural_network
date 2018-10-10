@@ -5,7 +5,7 @@ import tensorflow as tf
 import convolutional_tensorflow_traditional as ctt
 import matplotlib.pyplot as plt
 
-#folder = '/Users/khanhafizurrahman/Desktop/Job_preparation/machine_learning/Classification/Datasets/style'
+#folder = 'path of the folder where image data is stored'
 
 def main(folder):
     input_image_data_n_arr = cp.input_images(folder)
